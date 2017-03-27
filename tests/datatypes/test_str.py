@@ -585,12 +585,6 @@ class StrTests(TranspileTestCase):
             print(string.replace("el", "as", 2))
             """)
 
-        # test casee with error
-        self.assertCodeExecution("""
-            string = "hello\\nsomething else \\n \\n, test\\t.\hello"
-            print(string.replace("h"))
-            """)
-
 
 class UnaryStrOperationTests(UnaryOperationTestCase, TranspileTestCase):
     data_type = 'str'
