@@ -1081,7 +1081,7 @@ public class Str extends org.python.types.Object {
     }
 
     @org.python.Method(
-              __doc__ = "S.replace(old, new[, count]) -> str\n" +
+            __doc__ = "S.replace(old, new[, count]) -> str\n" +
                     "\n" +
                     "Return a copy of S with all occurrences of substring\n" +
                     "old replaced by new.  If the optional argument count is\n" +
