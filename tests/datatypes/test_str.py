@@ -604,7 +604,6 @@ class StrTests(TranspileTestCase):
             print("ß.nfG".casefold())
             print("HeLlo_worldʃ!".casefold())
             """)
-
     def test_replace(self):
         # test cases with valid outputs
         self.assertCodeExecution("""
